@@ -14,7 +14,7 @@ document.getElementById("lorem").onsubmit = (event) => __awaiter(this, void 0, v
     if (el && el.textContent) {
         // If we found the element and it has the ability to update the text content,
         // replace it with some placeholder text
-        el.setTextContent("This is Gaurang Vasava.");
+        el.setTextContent("Test testttssttst");
         // Finally, save the changes to the element & they will be reflected in the Designer
         yield el.save();
     }
