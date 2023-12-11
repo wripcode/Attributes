@@ -1,5 +1,5 @@
 {
-  "name": "Attributes",
+  "name": "attributes",
   "version": "1.0.0",
   "private": true,
   "main": "index.js",
@@ -10,6 +10,7 @@
   "devDependencies": {
     "@webflow/designer-extension-typings": "*",
     "concurrently": "*",
-    "typescript": "*"
+    "typescript": "*",
+    "webflow-api": "^1.3.1"
   }
 }

@@ -1,10 +1,12 @@
 {
   "compilerOptions": {
     "outDir": "public",
+    "moduleResolution": "node",
     "target": "es6",
     "lib": [
       "es6",
-      "dom"
+      "dom",
+      "es2017"
     ],
     "typeRoots": [
       "./node_modules/@types",
