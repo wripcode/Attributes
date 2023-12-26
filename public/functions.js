@@ -1,4 +1,4 @@
-// code snippet for tab
+// code snippet for tab functionality
 const tabsNav = document.querySelector(".tabs__nav");
 const tabsBtn = document.querySelectorAll(".tabs__nav-btn");
 const tabsItems = document.querySelectorAll(".tabs__item");

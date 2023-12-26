@@ -130,7 +130,6 @@ function createDeleteButton(elementId, attributeName) {
 
       if (element) {
         element.removeAttribute(attributeName);
-        // Save the changes to the element
         await element.save();
 
         // Refresh attribute listings
